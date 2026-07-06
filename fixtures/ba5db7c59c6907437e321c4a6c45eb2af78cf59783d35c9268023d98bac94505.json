@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "provider": "seed-stub",
+    "last_message": "Question: How long does the Meridian Cloud Free tier retain data?\n\nContext:\n[07-tiers] # Meridian Cloud Tiers\n\nMeridian Cloud is the hosted offering. Three tiers are available.\n\n[06-http-api] ## Rate "
+  },
+  "response": {
+    "content": "The Meridian Cloud Free tier retains data for 7 days.",
+    "tool_calls": [],
+    "raw": {}
+  }
+}

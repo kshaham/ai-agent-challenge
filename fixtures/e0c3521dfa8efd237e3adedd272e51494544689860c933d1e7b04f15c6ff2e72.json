@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "provider": "seed-stub",
+    "last_message": "Question: What is the default HTTP port for Meridian?\n\nContext:\n[03-configuration] ## Network\n\nThe HTTP API listens on port 7280 by default. The gRPC ingestion endpoint listens\non port 7281. Both can "
+  },
+  "response": {
+    "content": "The default HTTP port for Meridian is 7280.",
+    "tool_calls": [],
+    "raw": {}
+  }
+}

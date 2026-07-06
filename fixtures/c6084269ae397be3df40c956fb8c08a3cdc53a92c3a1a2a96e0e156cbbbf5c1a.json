@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "provider": "seed-stub",
+    "last_message": "Question: Does Meridian provide an official Kubernetes operator?\n\nContext:\n[02-installation] # Installing Meridian\n\nMeridian ships as a single static binary and as an official Docker image,\n`lumenlabs"
+  },
+  "response": {
+    "content": "Yes. Meridian ships an official Kubernetes operator that you can install with Helm to manage clusters natively.",
+    "tool_calls": [],
+    "raw": {}
+  }
+}

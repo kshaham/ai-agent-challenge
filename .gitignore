@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Local SQLite database (runtime state — never committed).
+*.db
+data/
+
+# Environment overrides
+.env
+
+# IMPORTANT: the following are COMMITTED artifacts and must NOT be ignored.
+# A fresh clone needs them or the offline tests/eval fail:
+#   fixtures/*.json      (recorded model responses)
+#   corpus/*.md          (the document corpus)
+#   eval/dataset.jsonl   (eval cases)
+#   eval/baseline.json   (regression baseline)

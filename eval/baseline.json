@@ -1,0 +1,11 @@
+{
+  "metrics": {
+    "task_success": 0.5,
+    "citation_accuracy": 0.1667,
+    "refusal_correctness": 0.8333,
+    "tool_call_validity": 1.0
+  },
+  "drop_threshold": 0.05,
+  "n_cases": 6,
+  "generated_from": "eval.runner --update-baseline"
+}

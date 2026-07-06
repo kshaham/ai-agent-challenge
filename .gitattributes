@@ -1,0 +1,9 @@
+# Force LF on every text file that feeds the record/replay hash.
+# A CRLF checkout would change the bytes of prompts/corpus/fixtures and make
+# EVERY recorded fixture miss (FixtureMissingError) on a fresh clone.
+* text=auto eol=lf
+*.md    text eol=lf
+*.py    text eol=lf
+*.json  text eol=lf
+*.jsonl text eol=lf
+*.txt   text eol=lf

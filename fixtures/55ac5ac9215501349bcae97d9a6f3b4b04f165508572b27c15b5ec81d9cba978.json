@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "provider": "seed-stub",
+    "last_message": "Question: On the Free tier, how long is my data retained and which command backs it up?\n\nContext:\n[06-http-api] ## Rate limits\n\nThe hosted Free tier is limited to 1000 requests per minute. Self-hosted"
+  },
+  "response": {
+    "content": "Your data is retained according to the retention period configured for your account, and you can create snapshots from the command line.",
+    "tool_calls": [],
+    "raw": {}
+  }
+}

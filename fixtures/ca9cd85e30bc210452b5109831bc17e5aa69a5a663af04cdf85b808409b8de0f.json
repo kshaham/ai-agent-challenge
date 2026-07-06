@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "provider": "seed-stub",
+    "last_message": "Question: Which license is Meridian released under?\n\nContext:\n[01-overview] # Meridian Overview\n\nMeridian is an open-source time-series database built for metrics, IoT telemetry,\nand observability wor"
+  },
+  "response": {
+    "content": "Meridian is released under the Apache 2.0 license.",
+    "tool_calls": [],
+    "raw": {}
+  }
+}
